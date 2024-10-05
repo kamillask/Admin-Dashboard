@@ -11,16 +11,24 @@
 <body>
     <div class="wrapper">
         <div class="header">
-            <div class="topHalf">
-                <img src="./images/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Search Icon">
-                <input type="text" id="search">
-                <img src="./images/notifications_active_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Notifications">
-                <img src="" alt="Profile Picture" id="profile">
+            <div class="headerTopHalf">
+                <div class="search">
+                    <img src="./images/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Search Icon">
+                    <input type="text" id="search">
+                </div>
+                <div class="headerProfile">
+                    <img src="./images/notifications_active_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Notifications">
+                    <img src="./images/tech128.jpg" alt="Profile Picture" id="smallProfilePhoto" height="48">
+                    <h3>TECHNOSIS</h3>
+                </div>
             </div>
             <div class="headerBottomHalf">
                 <div class="headerLeftBottomHalf">
-                    <img src="" alt="Profile Picture">
-                    <p>Hi there, </p>
+                    <img src="./images/tech256.jpg" alt="Profile Picture" id="bigProfilePhoto" height="64">
+                    <div class="welcome">
+                        <h3>Hi there, </h3>
+                        <h2>TECHNOSIS (@TECHNOSIS)</h2>
+                    </div>
                 </div>
                 <div class="headerRightBottomHalf">
                     <button>New</button>
@@ -30,8 +38,10 @@
             </div>
         </div>
         <div class="dashboard">
-            <img src="./images/dashboard_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Dashboard">
-            <h1>Dashboard</h1>
+            <div class="dashboardHeader">
+                <img src="./images/dashboard_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Dashboard">
+                <h1>Dashboard</h1>
+            </div>
             <div class="dashTopHalf">
                 <div class="option">
                     <img src="./images/home_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Home">
@@ -78,8 +88,10 @@
                 <h2>Projects</h2>
                 <div class="projectsContainer">
                     <div class="project">
-                        <h3>Super Cool Project</h3>
-                        <p>A groundbreaking app that uses AI to automatically edit and enhance user photos in real-time, making every picture look professional with minimal effort.</p>
+                        <div class="projectDetails">
+                            <h3>Super Cool Project</h3>
+                            <p>A groundbreaking app that uses AI to automatically edit and enhance user photos in real-time, making every picture look professional with minimal effort.</p>
+                        </div>
                         <div class="projectSettings">
                             <img src="./images/star_rate_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite">
                             <img src="./images/visibility_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Watch">
@@ -87,8 +99,10 @@
                         </div>
                     </div>
                     <div class="project">
-                        <h3>Less Cool Project</h3>
-                        <p>A simple note-taking app that stores and organizes text but lacks advanced features like cloud syncing or multimedia support.</p>
+                        <div class="projectDetails">
+                            <h3>Less Cool Project</h3>
+                            <p>A simple note-taking app that stores and organizes text but lacks advanced features like cloud syncing or multimedia support.</p>
+                        </div>
                         <div class="projectSettings">
                             <img src="./images/star_rate_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite">
                             <img src="./images/visibility_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Watch">
@@ -96,8 +110,10 @@
                         </div>
                     </div>
                     <div class="project">
-                        <h3>Impossible App</h3>
-                        <p>An app that claims to predict the future with 100% accuracy using advanced algorithms and data—too good (and unrealistic) to be true!</p>
+                        <div class="projectDetails">
+                            <h3>Impossible App</h3>
+                            <p>An app that claims to predict the future with 100% accuracy using advanced algorithms and data—too good (and unrealistic) to be true!</p>
+                        </div>
                         <div class="projectSettings">
                             <img src="./images/star_rate_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite">
                             <img src="./images/visibility_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Watch">
@@ -105,8 +121,10 @@
                         </div>
                     </div>
                     <div class="project">
-                        <h3>Easy Peasy App</h3>
-                        <p>A to-do list manager with a clean, user-friendly interface, designed to help users track daily tasks and goals with minimal effort.</p>
+                        <div class="projectDetails">
+                            <h3>Easy Peasy App</h3>
+                            <p>A to-do list manager with a clean, user-friendly interface, designed to help users track daily tasks and goals with minimal effort.</p>
+                        </div>
                             <div class="projectSettings">
                                 <img src="./images/star_rate_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite">
                                 <img src="./images/visibility_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Watch">
@@ -114,8 +132,10 @@
                             </div>
                         </div>
                     <div class="project">
-                        <h3>Ad Blocker</h3>
-                        <p>A browser extension that blocks intrusive ads, trackers, and pop-ups, improving web browsing speed and privacy for users.</p>
+                        <div class="projectDetails">
+                            <h3>Ad Blocker</h3>
+                            <p>A browser extension that blocks intrusive ads, trackers, and pop-ups, improving web browsing speed and privacy for users.</p>
+                        </div>
                         <div class="projectSettings">
                             <img src="./images/star_rate_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite">
                             <img src="./images/visibility_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Watch">
@@ -123,8 +143,10 @@
                         </div>
                     </div>
                     <div class="project">
-                        <h3>Money Maker</h3>
-                        <p>An investment app that helps users grow their savings by automating stock trading strategies based on real-time market analysis.</p>
+                        <div class="projectDetails">
+                            <h3>Money Maker</h3>
+                            <p>An investment app that helps users grow their savings by automating stock trading strategies based on real-time market analysis.</p>
+                        </div>
                         <div class="projectSettings">
                             <img src="./images/star_rate_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite">
                             <img src="./images/visibility_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Watch">
@@ -136,47 +158,51 @@
             </div>
             <div class="announcements">
                 <h2>Announcements</h2>
-                <div class="announcement">
-                    <h3>Site Maintenance</h3>
-                    <p>A virtual workshop where participants learned how to fix bugs, improve load times, and enhance website security.</p>
-                </div>
-                <div class="announcement">
-                    <h3>Community Share Day</h3>
-                    <p>A digital festival where members shared projects, ideas, and collaborated on new ventures.</p>
-                </div>
-                <div class="announcement">
-                    <h3>Updated Privacy Policy</h3>
-                    <p>A conference where experts discussed simplifying privacy policies and ensuring compliance with the latest regulations.</p>
+                <div class="announcementsContainer">
+                    <div class="announcement">
+                        <h3>Site Maintenance</h3>
+                        <p>A virtual workshop where participants learned how to fix bugs, improve load times, and enhance website security.</p>
+                    </div>
+                    <div class="announcement">
+                        <h3>Community Share Day</h3>
+                        <p>A digital festival where members shared projects, ideas, and collaborated on new ventures.</p>
+                    </div>
+                    <div class="announcement">
+                        <h3>Updated Privacy Policy</h3>
+                        <p>A conference where experts discussed simplifying privacy policies and ensuring compliance with the latest regulations.</p>
+                    </div>
                 </div>
             </div>
             <div class="trending">
                 <h2>Trending</h2>
-                <div class="profile">
-                    <img src="" alt="">
-                    <div class="details">
-                        <h4>@TECHNOSIS</h4>
-                        <p>Worst Code Alive</p>
+                <div class="trendingContainer">
+                    <div class="profile">
+                        <img src="" alt="">
+                        <div class="details">
+                            <h4>@TECHNOSIS</h4>
+                            <p>Worst Code Alive</p>
+                        </div>
                     </div>
-                </div>
-                <div class="profile">
-                    <img src="" alt="">
-                    <div class="details">
-                        <h4>@morgan</h4>
-                        <p>Super Cool Project</p>
+                    <div class="profile">
+                        <img src="" alt="">
+                        <div class="details">
+                            <h4>@morgan</h4>
+                            <p>Super Cool Project</p>
+                        </div>
                     </div>
-                </div>
-                <div class="profile">
-                    <img src="" alt="">
-                    <div class="details">
-                        <h4>@kendall</h4>
-                        <p>Life Changing App</p>
+                    <div class="profile">
+                        <img src="" alt="">
+                        <div class="details">
+                            <h4>@kendall</h4>
+                            <p>Life Changing App</p>
+                        </div>
                     </div>
-                </div>
-                <div class="profile">
-                    <img src="" alt="">
-                    <div class="details">
-                        <h4>@alex</h4>
-                        <p>No Traffic Maker</p>
+                    <div class="profile">
+                        <img src="" alt="">
+                        <div class="details">
+                            <h4>@alex</h4>
+                            <p>No Traffic Maker</p>
+                        </div>
                     </div>
                 </div>
             </div>
